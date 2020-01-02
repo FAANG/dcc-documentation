@@ -1,17 +1,21 @@
-# Welcome to MkDocs
+# FAANG Archive Submission guidelines
 
-For full documentation visit [mkdocs.org](https://mkdocs.org).
+All FAANG data should be rapidly released through the assay archives hosted at 
+EMBL-EBI and NCBI as per the [FAANG Data Sharing Principles](
+http://www.faang.org/data-share-principle).
 
-## Commands
+Sample information should be submitted to BioSamples at EMBL-EBI, before 
+submission of any experimental data to the assay archives. All these assay 
+archives should be able to take the pre-registered biosample identifiers as 
+part of a submission.
 
-* `mkdocs new [dir-name]` - Create a new project.
-* `mkdocs serve` - Start the live-reloading docs server.
-* `mkdocs build` - Build the documentation site.
-* `mkdocs help` - Print this help message.
-
-## Project layout
-
-    mkdocs.yml    # The configuration file.
-    docs/
-        index.md  # The documentation homepage.
-        ...       # Other markdown pages, images and other files.
+Data type | Archive | Submission guidance
+------------ | ------------- | ------------
+Sample information | [BioSamples at EMBL-EBI](https://www.ebi.ac.uk/biosamples/)  | [Submission of samples to BioSamples]()
+Sequencing data | [ENA Read Archive at EMBL-EBI](https://www.ebi.ac.uk/ena/submit)  | [Submission of sequencing data]()
+Array data | [ArrayExpress at EMBL-EBI](https://www.ebi.ac.uk/arrayexpress/) | [Submission of array data]() 
+Analysis results | [ENA Read Archive at EMBL-EBI](https://www.ebi.ac.uk/ena/submit)| [Submission of analysis files]()
+| [ArrayExpress at EMBL-EBI](https://www.ebi.ac.uk/biosamples/) |
+| [European Variation Archive at EMBL-EBI](https://www.ebi.ac.uk/eva/) |
+| [DCC FTP site at EMBL-EBI](http://ftp.faang.ebi.ac.uk/ftp/) |
+Unstructured data | [BioStudies at EMBL-EBI](http://www.ebi.ac.uk/biostudies/) | Please contact [faang-dcc@ebi.ac.uk](mailto:faang-dcc@ebi.ac.uk)

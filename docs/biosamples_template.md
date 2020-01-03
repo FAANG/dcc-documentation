@@ -78,7 +78,7 @@ long time. These are example values for the availability attribute (non-FAANG):
 * https://cells.ebisc.org/EDi001-A/
 * mailto:samplesgroup@example.ac.uk
 
-###### Availability
+###### Same as
 BioSample ID for an equivalent sample record, created before the FAANG metadata 
 specification was available. This is optional and not intended for general use, 
 please contact the [data coordination centre](mailto:faang-dcc@ebi.ac.uk) 

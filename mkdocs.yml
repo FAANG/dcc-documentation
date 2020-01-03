@@ -10,7 +10,7 @@ nav:
         - Completing the template: ena_template.md
         - Validation and conversion: ena_validation_conversion.md
         - Submission to ENA: ena_submission.md
-        - Updating existing submission in ENA: biosamples_updating.md
+        - Updating existing submission in ENA: ena_updating.md
     - Array data submission: array.md
     - Analysis data submission: analysis.md
     - Unstructured data submission: unstructured.md

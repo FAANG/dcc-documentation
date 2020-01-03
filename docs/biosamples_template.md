@@ -83,3 +83,145 @@ BioSample ID for an equivalent sample record, created before the FAANG metadata
 specification was available. This is optional and not intended for general use, 
 please contact the [data coordination centre](mailto:faang-dcc@ebi.ac.uk) 
 before using it.
+
+###### Material specific fields
+For information about material specific fields please follow ruleset 
+specification:
+
+* [organism](https://data.faang.org/ruleset/samples#animal)
+* [specimen from organism](https://data.faang.org/ruleset/samples#specimen)
+* [pool of specimens](https://data.faang.org/ruleset/samples#pool_of_specimens)
+* [cell specimen](https://data.faang.org/ruleset/samples#purified_cells)
+* [cell culture](https://data.faang.org/ruleset/samples#cell_culture)
+* [cell line](https://data.faang.org/ruleset/samples#cell_line)
+
+###### Multiple values
+Some metadata attributes permit multiple values. For example, you may wish to 
+describe several health status traits for an animal. In this case, insert extra 
+columns for the attribute into the template. Take care to copy all related 
+columns. e.g. for an animal with foot and mouth disease and endocarditis, 
+you would use four columns:
+
+Health Status | Term Source ID | Health Status | Term Source ID
+------------ | ------------- | ------------ | -------------
+endocarditis | EFO_0000465 | foot and mouth disease | EFO_0007277
+
+Where there isn’t a term that is precisely right, consider using the ID for a 
+term that is close enough, combined with text to say exactly what you mean. 
+This will be marked with a warning at validation, but you can choose to ignore 
+this. You can also request a new term from the ontology. Guidance on this is 
+available on the [FAANG wiki](faang_wiki.md). Contact [FAANG DCC](
+mailto:faang-dcc@ebi.ac.uk) if assistance is needed. 
+As requesting a new term can sometimes take a while to resolve, you can use the 
+best approximation first, and update with the more accurate term at a later 
+date. You don’t have to just wait for the new term to be assigned.
+
+###### Guidelines on describing crossbred animals. 
+There are [additional instructions](faang_guidelines.md) for describing 
+crossbred animals 
+
+###### Derived From / Child of 
+Used to describe familial relationships between samples or what samples were 
+derived from. For example, a tissue specimen is derived from an animal.
+
+These must either:
+
+* Refer exactly to the **'Sample Name'** of an appropriate sample within the same 
+excel spreadsheet
+* Refer to an appropriate sample that already exists in the **BioSamples** 
+database using its BioSample ID, e.g. **'SAMEA4447799'**.
+
+###### Specimen Collection Protocol / Purification Protocol / Cell Culture Protocol / Culture Protocol
+The FAANG sample and experiment metadata specification requires your protocols 
+to be publicly available.
+
+It is best these are hosted in a location which will be available in the long 
+term so locations such as lab pages are inadvisable as web addresses change 
+and hosting goes away.
+
+FAANG is happy to host protocols in the [data portal](https://data.faang.org)
+
+If you wish FAANG to host your protocols, please send PDF copies of your 
+protocols to [FAANG DCC](mailto:faang-dcc@ebi.ac.uk). Please consult the FAANG 
+metadata validation privacy notice for the processing of your personal 
+information in relation to protocol submission 
+[https://www.ebi.ac.uk/data-protection/privacy-notice/faang-metadata-validation](
+https://www.ebi.ac.uk/data-protection/privacy-notice/faang-metadata-validation)
+
+Please name your files using this convention 
+INSTITUTE_SOP_PROTOCOLNAME_YYYYMMDD.pdf e.g 
+INRA_SOP_sorting_swine_CD_cells_20160504.pdf. This is a protocol for Sorting 
+Swine CD cells, the protocol comes from the French National Institute for 
+Agricultural Research and the protocol was written on the 4th May 2016.
+
+Please check the [organisation/group abbreviation page](
+organization_group_abbreviations.md) to find or add your organisation/group 
+abbreviation for consistency across institutes.
+
+If you have any questions about protocols and the form they should take, 
+please email the [FAANG Animal, Samples and Assays group](
+mailto:faang-samples@animalgenomes.org)
+
+## 3. Specific metadata instructions for tracking embryos and pregnancy
+For samples taken from pregnant animals:
+
+* Include that the animal was 'pregnant' in the **Sample Description**.
+* The **'Animal Age At Collection'** is the age of the mother
+* The gestational age and unit should also be supplied. (TODO: check this)
+
+For embryo samples, on the **specimen from organism** sheet **'Organism Part'** 
+should be listed as **"embryo"**, the **'Term Source ID'** as **"UBERON_0000922"**. 
+The **'Animal Age At Collection'** should list the embryos age in days since 
+conception.
+
+## 4. Adding custom columns to your spreadsheet
+It is possible to add additional custom fields to your BioSamples records, 
+simply add the columns to the end of the appropriate tab.
+
+Please contact  [FAANG DCC](mailto:faang-dcc@ebi.ac.uk) with your requirements 
+as it may be something we  wish to support by default in future.
+
+If it is possible to attach an ontology term to control the nomenclature of 
+these custom fields then 'Term Source Ref' and 'Term Source ID' columns should 
+also be added. If you are using an ontology not listed by default under the 
+term source tab then it needs to be added to the term source tab and you also 
+need to contact [FAANG DCC](mailto:faang-dcc@ebi.ac.uk) to let us know which 
+ontology you have additionally used.
+
+## 5. Missing values 
+Where data cannot be included in a submission, submit one of these text values 
+instead:
+
+* not applicable
+* not collected (i.e. will always be missing)
+* not provided (i.e. may be added later)
+* restricted access (i.e. it isn't missing, we just can't include it in a 
+public document)
+
+The use of these values will interact with the metadata validation system as 
+follows:
+
+* if an attribute is required:
+    * not applicable, not collected, not provided - validation will regard 
+    these as an error
+    * restricted access - validation will generate a warning
+* if an attribute is recommended:
+    * not collected, not provided - validation will generate a warning
+    * restricted access, not applicable - pass
+* if an attribute is optional:
+    * validation will fail with any of missing values terms. As this is an 
+    optional field it should be left blank if no real data is being provided.
+    
+If an attribute is optional and you can’t supply it, you should just leave the 
+column blank.
+
+Assume that the DCC will ask about anything that seems implausible. e.g. 
+**'restricted access'** for species would be queried.
+
+## 6. Pools of specimens 
+Each specimen within the pool should have its own specimen record.  For each 
+specimen in the pool add its **'Sample Name'** (if detailed in the same file), or 
+**BioSample ID** if it already exists in the BioSamples database, to the 
+**'Derived From'** field.  Add as many **'Derived From'** fields as are required to 
+record all of the specimens that are part of the pool.
+

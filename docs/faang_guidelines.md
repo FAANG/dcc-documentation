@@ -1,0 +1,1 @@
+# FAANG guidelines for livestock breed nomenclature

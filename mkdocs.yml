@@ -13,5 +13,4 @@ nav:
         - Updating existing submission in ENA: ena_updating.md
     - Array data submission: array.md
     - Analysis data submission: analysis.md
-    - Unstructured data submission: unstructured.md
 theme: readthedocs

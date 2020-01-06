@@ -1,0 +1,1 @@
+# FAANG validation error message explanations

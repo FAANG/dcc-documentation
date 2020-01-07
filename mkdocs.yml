@@ -15,4 +15,5 @@ nav:
     - Analysis data submission:
           - Completeing the template: analysis.md
           - Validation and conversion: analysis_validation_conversion.md
+    - Frequently Asked Questions: faq.md
 theme: readthedocs

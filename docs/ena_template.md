@@ -43,9 +43,9 @@ Steps required to submit sequencing data:
 
 ## 1. Download the Excel template
 * Download the latest version of the [Excel template](
-https://data.faang.org/assets/faang_experiment.xlsx)
+https://data.faang.org/assets/empty/faang_experiment.xlsx)
 * You can also download an [example template](
-https://data.faang.org/assets/faang_experiment.xlsx) to refer to for advice on 
+https://data.faang.org/assets/with_examples/faang_experiment.xlsx) to refer to for advice on 
 completion
 
 Please refer to [ENA guidance](http://www.ebi.ac.uk/ena/submit) on the requirements for submission and to the 

@@ -23,9 +23,9 @@ template with information about your sample following these two steps:
 
 ## 1. Download the Excel template
 * Download the latest version of the [Excel template](
-https://data.faang.org/assets/faang_sample.xlsx)
+https://data.faang.org/assets/empty/faang_sample.xlsx)
 * You can also download an [example template](
-https://data.faang.org/assets/faang_sample.xlsx) to refer to for advice on 
+https://data.faang.org/assets/with_examples/faang_sample.xlsx) to refer to for advice on 
 completion
 
 ## 2. Complete the template

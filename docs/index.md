@@ -2,7 +2,10 @@
 
 All FAANG data should be rapidly released through the assay archives hosted at 
 EMBL-EBI and NCBI as per the [FAANG Data Sharing Principles](
-http://www.faang.org/data-share-principle).
+http://www.faang.org/data-share-principle). All submissions should 
+proceed using the instructions provided within this documentation that uses the 
+[FAANG validation service](https://data.faang.org/validation/samples) to ensure FAANG submissions 
+meet the stringent [FAANG Metadata Standards](https://data.faang.org/ruleset/samples#standard).
 
 Sample information should be submitted to BioSamples at EMBL-EBI, before 
 submission of any experimental data to the assay archives. All these assay 
@@ -19,3 +22,5 @@ Analysis results | [ENA Read Archive at EMBL-EBI](https://www.ebi.ac.uk/ena/subm
 | [European Variation Archive at EMBL-EBI](https://www.ebi.ac.uk/eva/) |
 | [DCC FTP site at EMBL-EBI](http://ftp.faang.ebi.ac.uk/ftp/) |
 Unstructured data | [BioStudies at EMBL-EBI](http://www.ebi.ac.uk/biostudies/) | Please contact [faang-dcc@ebi.ac.uk](mailto:faang-dcc@ebi.ac.uk)
+
+For more information on the FAANG project please see the [FAANG website](https://www.faang.org/).

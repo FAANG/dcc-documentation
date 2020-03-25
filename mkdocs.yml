@@ -2,7 +2,7 @@ site_name: FAANG
 nav:
     - Home: index.md
     - Sample data submission:
-        - Completing the template: biosamples_template.md
+        - Completing the template: sample/biosamples_template.md
         - Validation and conversion: biosamples_validation_conversion.md
         - Submission to BioSamples: biosamples_submission.md
         - Updating existing BioSamples records: biosamples_updating.md

@@ -11,7 +11,7 @@ To start validation please follow these steps:
 
 1. Click on **'Choose file''** button to choose filled out template file
 2. Click on **'Upload a File'** button to upload template to validation service
-![Screenshot](img/1.png)
+![Screenshot](../img/validation_service_workflow.png)
 3. Check **'Status'** badge for updates. It might have three different values:
     * Waiting
     * Success
@@ -26,7 +26,7 @@ It might have three different values:
 6. Review all **'Errors'** and **'Warnings'**. For this click on the cell
 that contains any issues, pop-up window will have detailed information about
 **'Errors'** and **'Warnings'**
-![Screenshot](img/2.png)
+![Screenshot](../img/error_and_warning.png)
 
 
 **'Errors'** are problems that have to be dealt with. You will not be able to 
@@ -67,4 +67,4 @@ is ready follow these steps to get converted data in JSON format:
 updates.
 3. Click on **'Dowload data'** button to get JSON file that is suitable for
 BioSamples submission.
-![Screenshot](img/3.png)
+![Screenshot](../img/conversion_result.png)

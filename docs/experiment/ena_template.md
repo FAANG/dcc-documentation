@@ -82,7 +82,7 @@ contact [FAANG DCC](mailto:faang-dcc@ebi.ac.uk) for help.
 ## 2. Complete the template
 Before starting filling the template, it will be helpful to understand the 
 relationships among entities which are going to be filled in the template.
-![Screenshot](img/4.png)
+![Screenshot](../img/ena_entity_relationship.png)
 
 The below schematic shows what the conversion tool will create for you from 
 your filled-out template file, which also indicates the relationships among 

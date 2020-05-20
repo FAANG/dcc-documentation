@@ -2,18 +2,18 @@ site_name: FAANG
 nav:
     - Home: index.md
     - Sample data submission:
-        - Completing the template: biosamples_template.md
-        - Validation and conversion: biosamples_validation_conversion.md
-        - Submission to BioSamples: biosamples_submission.md
-        - Updating existing BioSamples records: biosamples_updating.md
+        - Completing the template: sample/biosamples_template.md
+        - Validation and conversion: sample/biosamples_validation_conversion.md
+        - Submission to BioSamples: sample/biosamples_submission.md
+        - Updating existing BioSamples records: sample/biosamples_updating.md
     - Sequencing data submission:
-        - Completing the template: ena_template.md
-        - Validation and conversion: ena_validation_conversion.md
-        - Submission to ENA: ena_submission.md
-        - Updating existing submission in ENA: ena_updating.md
+        - Completing the template: experiment/ena_template.md
+        - Validation and conversion: experiment/ena_validation_conversion.md
+        - Submission to ENA: experiment/ena_submission.md
+        - Updating existing submission in ENA: experiment/ena_updating.md
     - Array data submission: array.md
     - Analysis data submission:
-          - Completeing the template: analysis.md
-          - Validation and conversion: analysis_validation_conversion.md
+          - Completeing the template: analysis/analysis_index.md
+          - Validation and conversion: analysis/analysis_validation_conversion.md
     - Frequently Asked Questions: faq.md
 theme: readthedocs

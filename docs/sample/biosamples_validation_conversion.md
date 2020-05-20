@@ -2,7 +2,7 @@
 
 ## 1. Validation
 The filled out template can be validated against the FAANG rules, using the 
-[on-line tool](https://data.faang.org/validation/analyses). It will provide a 
+[on-line tool](https://data.faang.org/validation/samples). It will provide a 
 report highlighting problems for review. This is under development, so please 
 query [FAANG DCC](mailto:faang-dcc@ebi.ac.uk) if you have any concerns about 
 the validation result.
@@ -11,7 +11,7 @@ To start validation please follow these steps:
 
 1. Click on **'Choose file''** button to choose filled out template file
 2. Click on **'Upload a File'** button to upload template to validation service
-![Screenshot](img/1.png)
+![Screenshot](../img/validation_service_workflow.png)
 3. Check **'Status'** badge for updates. It might have three different values:
     * Waiting
     * Success
@@ -26,11 +26,11 @@ It might have three different values:
 6. Review all **'Errors'** and **'Warnings'**. For this click on the cell
 that contains any issues, pop-up window will have detailed information about
 **'Errors'** and **'Warnings'**
-![Screenshot](img/2.png)
+![Screenshot](../img/error_and_warning.png)
 
 
 **'Errors'** are problems that have to be dealt with. You will not be able to 
-convert the FAANG analysis spreadsheet to the ENA XML format if 
+convert the FAANG sample spreadsheet to the BioSamples JSON format if 
 the spreadsheet contains errors. **'Warnings'** are items for you to review. 
 They might be fine, but you need to decide. Any warnings left in a submission 
 are likely to be reviewed by the FAANG DCC. You may be asked to update the 
@@ -42,8 +42,11 @@ validation tool can provide please see [FAANG validation error message
 explanations](faang_validation_error_message_explanation.md).
 
 Metadata fields are organized into biologically-meaningful type schemas, 
-for example a **'ena'** or **'faang'**. Also 
-template could have module fields (**eva**). 
+for example a **'specimen from organism'** or **'cell specimen'**. Each type 
+schema inherits a core schema, containing the minimal fields necessary for 
+that type ([standard rule group](
+https://data.faang.org/ruleset/samples#standard) in samples ruleset). Also 
+template could have custom fields (defined by user). 
 
 For each of these types of schemas **'Errors'** and **'Warnings'** information
 will be provided in **'3. Validation results'** section, for example **'Core errors'** or
@@ -67,4 +70,4 @@ is ready follow these steps to get converted data in JSON format:
 updates.
 3. Click on **'Dowload data'** button to get JSON file that is suitable for
 BioSamples submission.
-![Screenshot](img/3.png)
+![Screenshot](../img/conversion_result.png)

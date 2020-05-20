@@ -14,10 +14,10 @@ part of a submission.
 
 Data type | Archive | Submission guidance
 ------------ | ------------- | ------------
-Sample information | [BioSamples at EMBL-EBI](https://www.ebi.ac.uk/biosamples/)  | [Submission of samples to BioSamples](biosamples_template.md)
-Sequencing data | [ENA Read Archive at EMBL-EBI](https://www.ebi.ac.uk/ena/submit)  | [Submission of sequencing data](ena_template.md)
+Sample information | [BioSamples at EMBL-EBI](https://www.ebi.ac.uk/biosamples/)  | [Submission of samples to BioSamples](sample/biosamples_template.md)
+Sequencing data | [ENA Read Archive at EMBL-EBI](https://www.ebi.ac.uk/ena/submit)  | [Submission of sequencing data](experiment/ena_template.md)
 Array data | [ArrayExpress at EMBL-EBI](https://www.ebi.ac.uk/arrayexpress/) | [Submission of array data](array.md) 
-Analysis results | [ENA Read Archive at EMBL-EBI](https://www.ebi.ac.uk/ena/submit)| [Submission of analysis files](analysis.md)
+Analysis results | [ENA Read Archive at EMBL-EBI](https://www.ebi.ac.uk/ena/submit)| [Submission of analysis files](analysis/analysis_index.md)
 Analysis results | [ArrayExpress at EMBL-EBI](https://www.ebi.ac.uk/biosamples/) |
 Analysis results | [European Variation Archive at EMBL-EBI](https://www.ebi.ac.uk/eva/) |
 Unstructured data | [BioStudies at EMBL-EBI](http://www.ebi.ac.uk/biostudies/) | Please contact [faang-dcc@ebi.ac.uk](mailto:faang-dcc@ebi.ac.uk)

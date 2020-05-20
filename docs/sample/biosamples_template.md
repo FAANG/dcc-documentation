@@ -69,7 +69,7 @@ example of John Smith below.  At least one person should be listed as the
 submitter (this is you!).
 
 Person Last Name | Person Initials | Person First Name | Person Email | Person role
------------- | ------------- | ------------ | ------------ | ------------ |
+------------ | ------------- | ------------ | ------------ | ------------
 Smith | J | John | john@someplace.ac.uk | submitter
 Smith | J | John | john@someplace.ac.uk | experiment performer
 Bloggs | LE | Laura | laura@someplace.ac.uk | data analyst
@@ -86,7 +86,7 @@ If an organization has more than one role, then it should be listed in full on
  multiple lines, see example for Roslin Institute below.
  
  Organization Name | Organization Address | Organization URI | Organization Role
------------- | ------------- | ------------ | ------------ |
+------------ | ------------- | ------------ | ------------
 EMBL-EBI | Wellcome Genome Campus, Hinxton, Cambridge, CB10 1SD, United Kingdom | http://www.ebi.ac.uk/ | curator
 The Roslin Institute and Royal Dick School of Veterinary Studies | Easter Bush Campus, Edinburgh, Midlothian, EH25 9RG, United Kingdom | http://www.roslin.ed.ac.uk/ | institution
 The Roslin Institute and Royal Dick School of Veterinary Studies | Easter Bush Campus, Edinburgh, Midlothian, EH25 9RG, United Kingdom | http://www.roslin.ed.ac.uk/ | biomaterial provider

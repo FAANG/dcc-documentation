@@ -44,6 +44,54 @@ capturing customized extra information and providing multiple values for one
 field respectively (where it's allowed, see [ruleset specification](
 https://data.faang.org/ruleset/samples#standard) **"Allow multiple?"** field).
 
+###### Submission tab
+Provide a submission title and submission description.
+* **Submission Title**. The suggested title format is 
+"EBI-FAANG-HARRISON-Sheep-160414".  This is constructed from your 
+organisation/group abbreviation, the "FAANG" project (to help identify your 
+samples), submitters surname, common species name and date of submission.
+    * **Note** please check the [organisation/group abbreviation page](organization_group_abbreviations.md) 
+    to find or add your organisation/group abbreviation for consistency across 
+    institutes.
+* **Submission Description**. Briefly describe the samples and study.  
+This description will be displayed on BioSamples to describe all of the 
+samples in your BioSamples group so it is important that it is informative 
+and accurately describes the samples in the study.  **Please ensure that the 
+common species name is included in this description**.
+
+###### Person tab
+Add the full details and email address of the people responsible for producing 
+the data.  At least one person must be listed. For each person a role should 
+be provided from the list of possible [organization roles](roles.md).
+
+A person can have more than one role by listing them twice in full, see the 
+example of John Smith below.  At least one person should be listed as the 
+submitter (this is you!).
+
+Person Last Name | Person Initials | Person First Name | Person Email | Person role
+------------ | ------------- | ------------ | ------------ | ------------ |
+Smith | J | John | john@someplace.ac.uk | submitter
+Smith | J | John | john@someplace.ac.uk | experiment performer
+Bloggs | LE | Laura | laura@someplace.ac.uk | data analyst
+
+###### Organization tab
+Add the full details of the organisations and funding bodies responsible for 
+producing the data.  At least one organisation must be listed.
+
+For each organisation a role should be provided from the same list as the 
+person tab above.
+
+Multiple organizations can be recorded here as appropriate, one per line.  
+If an organization has more than one role, then it should be listed in full on
+ multiple lines, see example for Roslin Institute below.
+ 
+ Organization Name | Organization Address | Organization URI | Organization Role
+------------ | ------------- | ------------ | ------------ |
+EMBL-EBI | Wellcome Genome Campus, Hinxton, Cambridge, CB10 1SD, United Kingdom | http://www.ebi.ac.uk/ | curator
+The Roslin Institute and Royal Dick School of Veterinary Studies | Easter Bush Campus, Edinburgh, Midlothian, EH25 9RG, United Kingdom | http://www.roslin.ed.ac.uk/ | institution
+The Roslin Institute and Royal Dick School of Veterinary Studies | Easter Bush Campus, Edinburgh, Midlothian, EH25 9RG, United Kingdom | http://www.roslin.ed.ac.uk/ | biomaterial provider
+BBSRC | Polaris House, North Star Avenue, Swindon, Wiltshire, SN2 1UH, United Kingdom | http://www.bbsrc.ac.uk/ | funder
+
 ###### Sample Name
 Sample Name should contain a short species code, an abbreviated name for the 
 institute/lab, and a unique ID for each sample, e.g. 'ECA_ROSLIN_H1'

@@ -11,10 +11,10 @@ part of a submission.
 
 Data type | Archive | Submission guidance
 ------------ | ------------- | ------------
-Sample information | [BioSamples at EMBL-EBI](https://www.ebi.ac.uk/biosamples/)  | [Submission of samples to BioSamples]()
-Sequencing data | [ENA Read Archive at EMBL-EBI](https://www.ebi.ac.uk/ena/submit)  | [Submission of sequencing data]()
-Array data | [ArrayExpress at EMBL-EBI](https://www.ebi.ac.uk/arrayexpress/) | [Submission of array data]() 
-Analysis results | [ENA Read Archive at EMBL-EBI](https://www.ebi.ac.uk/ena/submit)| [Submission of analysis files]()
+Sample information | [BioSamples at EMBL-EBI](https://www.ebi.ac.uk/biosamples/)  | [Submission of samples to BioSamples](biosamples_template.md)
+Sequencing data | [ENA Read Archive at EMBL-EBI](https://www.ebi.ac.uk/ena/submit)  | [Submission of sequencing data](ena_template.md)
+Array data | [ArrayExpress at EMBL-EBI](https://www.ebi.ac.uk/arrayexpress/) | [Submission of array data](array.md) 
+Analysis results | [ENA Read Archive at EMBL-EBI](https://www.ebi.ac.uk/ena/submit)| [Submission of analysis files](analysis.md)
 | [ArrayExpress at EMBL-EBI](https://www.ebi.ac.uk/biosamples/) |
 | [European Variation Archive at EMBL-EBI](https://www.ebi.ac.uk/eva/) |
 | [DCC FTP site at EMBL-EBI](http://ftp.faang.ebi.ac.uk/ftp/) |

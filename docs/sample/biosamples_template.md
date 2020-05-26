@@ -50,7 +50,7 @@ Provide a submission title and submission description.
 "EBI-FAANG-HARRISON-Sheep-160414".  This is constructed from your 
 organisation/group abbreviation, the "FAANG" project (to help identify your 
 samples), submitters surname, common species name and date of submission.
-    * **Note** please check the [organisation/group abbreviation page](organization_group_abbreviations.md) 
+    * **Note** please check the [organisation/group abbreviation page](../organization_group_abbreviations.md) 
     to find or add your organisation/group abbreviation for consistency across 
     institutes.
 * **Submission Description**. Briefly describe the samples and study.  
@@ -101,7 +101,7 @@ Accepted [short species codes](short_species_codes.md) (please contact
 listed there)
 
 Please check the organisation/group abbreviation page to find or add your 
-[organisation/group abbreviation](organization_group_abbreviations.md) for 
+[organisation/group abbreviation](../organization_group_abbreviations.md) for 
 consistency across institutes.
 
 ###### Sample Description
@@ -203,7 +203,7 @@ Swine CD cells, the protocol comes from the French National Institute for
 Agricultural Research and the protocol was written on the 4th May 2016.
 
 Please check the [organisation/group abbreviation page](
-organization_group_abbreviations.md) to find or add your organisation/group 
+../organization_group_abbreviations.md) to find or add your organisation/group 
 abbreviation for consistency across institutes.
 
 If you have any questions about protocols and the form they should take, 

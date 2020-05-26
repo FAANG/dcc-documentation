@@ -1,4 +1,8 @@
 # Organization/Group Abbreviations
+
+To suggest or discuss the addition of a new organisation abbreviation please 
+contact [faang-dcc@ebi.ac.uk](mailto:faang-dcc@ebi.ac.uk)
+
 Abbreviation | Organization/Group
 ------------ | -------------
 AGS	| Agroscope (Switzerland)
@@ -22,3 +26,6 @@ ULE	| University of León (León, Spain)
 USDA	| The United States Department of Agriculture (USA)
 USMARC	| United States Meat Animal Research Center (USA)
 USU	| Utah State University (USA)
+
+To suggest or discuss the addition of a new organisation abbreviation please 
+contact [faang-dcc@ebi.ac.uk](mailto:faang-dcc@ebi.ac.uk)

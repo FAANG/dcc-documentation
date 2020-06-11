@@ -151,7 +151,7 @@ Pre-publication data sharing. Nature 461:168-170). Any use of this dataset
 must abide by the FAANG data sharing principles. Data producers reserve the 
 right to make the first publication of a global analysis of this data. If you 
 are unsure if you are allowed to publish on this dataset, please contact 
-[FAANG consortium](mailto:faang@iastate.edu) to enquire. The full guidelines can be found at 
+the FAANG Data Coordination Centre and FAANG consortium (email faang-dcc@ebi.ac.uk and cc faang@iastate.edu) to enquire. The full guidelines can be found at 
 [http://www.faang.org/data-share-principle](http://www.faang.org/data-share-principle)."
 
 ###### 'experiment ena' tab

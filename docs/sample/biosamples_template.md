@@ -165,7 +165,7 @@ best approximation first, and update with the more accurate term at a later
 date. You don’t have to just wait for the new term to be assigned.
 
 ###### Guidelines on describing crossbred animals. 
-There are [additional instructions](faang_guidelines.md) for describing 
+There are [additional instructions](../faang_guidelines.md) for describing 
 crossbred animals 
 
 ###### Derived From / Child of 

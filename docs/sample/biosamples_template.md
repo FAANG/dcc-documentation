@@ -109,7 +109,7 @@ Briefly describe the sample.
 
 ###### Material and Term Source ID
 For recording specimen material and term source ID please use this [table](
-material_term_source_id.md)
+../material_term_source_id.md)
 
 ###### Project
 Always use **"FAANG"** as the project so that your samples are in the correct 

@@ -11,6 +11,7 @@ DEDJTR	| Department of Economic Development, Jobs, Transport and Resources (Bund
 EHU	| University of the Basque Country (Spain)
 ESTEAM	| ESTeam Paris SUD (France)
 FBN	| Leibniz Institute for Farm Animal Biology (Dummerstorf, Germany)
+INRA | French National Institute for Agricultural Research (France)
 INRAE | National Research Institute for Agriculture, Food and Environment (France）
 ISU	| Iowa State University (USA)
 KU	| Konkuk University (Seoul, Korea)

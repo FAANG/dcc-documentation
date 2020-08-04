@@ -9,7 +9,7 @@ instructions provided in form, we would recommend to start from
 **"Test server"** submission.
 ![Screenshot](../img/login.png)
 
-3. Next you will need to choose from existing domain or create new one, please
+3. Next you will need to choose from existing domains or a create new one, please
 follow instructions provided in a form. Then click 
 **"Submit records to BioSamples"**
 ![Screenshot](../img/choose_domain.png)
@@ -18,6 +18,6 @@ follow instructions provided in a form. Then click
 4. After successful submission you will get you results in a table, also browser
 will start automatic **submission results** download. If it won't happen 
 please use **"Download submission results"** button. It's really important to 
-save this file in safe place for further reference
+save this file in a safe place for further reference
 ![Screenshot](../img/submission_results.png)
 

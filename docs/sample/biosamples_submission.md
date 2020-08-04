@@ -1,15 +1,23 @@
 # Submission to BioSamples
-For information about submission data to BioSamples please follow 
-[this guide](https://www.ebi.ac.uk/biosamples/docs/references/api/submit#_submit_a_sample).
+1. After successful validation you should be allowed to do a submission to 
+[BioSamples](https://www.ebi.ac.uk/biosamples/). Just click on 
+**"Start submission to BioSamples"** button on 4th stage.  
+![Screenshot](../img/prepare_data_for_submission.png)
 
-You need to use provided **'samples.json'** file in 
-[this step](https://submission.ebi.ac.uk/api/docs/guide_getting_started.html#_adding_a_sample_record_to_a_submission)
+2. Next you will need to provide your AAP credentials. Please follow 
+instructions provided in form, we would recommend to start from 
+**"Test server"** submission.
+![Screenshot](../img/login.png)
 
-Currently we're working on automatic submission to BioSample and once it's 
-ready we will update documentation accordingly. Meanwhile it's possible to 
-use provided [iPython notebook](biosamples_JSON_submission.ipynb) with all 
-required commands to do a submission to BioSamples. Just follow comments in 
-this document and don't hesitate to [contact us](mailto:faang-dcc@ebi.ac.uk) 
-in case of any problems.
+3. Next you will need to choose from existing domain or create new one, please
+follow instructions provided in a form. Then click 
+**"Submit records to BioSamples"**
+![Screenshot](../img/choose_domain.png)
+![Screenshot](../img/create_domain.png)
 
+4. After successful submission you will get you results in a table, also browser
+will start automatic **submission results** download. If it won't happen 
+please use **"Download submission results"** button. It's really important to 
+save this file in safe place for further reference
+![Screenshot](../img/submission_results.png)
 

@@ -1,4 +1,8 @@
 # Submit the XML files to ENA
+Before you start you **MUST** have submitted all of your sample data to BioSamples, 
+please refer to the [instructions](../sample/biosamples_template.md) to 
+achieve this.
+
 1. Register for an ENA submission account if you do not already have one 
 [https://www.ebi.ac.uk/ena/submit/sra/#registration](https://www.ebi.ac.uk/ena/submit/sra/#registration)
     * More detailed instructions on account registration can be found here 

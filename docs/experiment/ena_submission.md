@@ -23,31 +23,22 @@
     need to be uploaded.  This can be created programatically in unix using a 
     command similar to 'find /PATH/TO/BASESEQUENCINGDIRECTORY -name "*.fq" > 
     asperafilelist.txt’.
-3. Verify XML validity using the ENA test service 
-([https://www-test.ebi.ac.uk/ena/submit/drop-box/submit/](https://www-test.ebi.ac.uk/ena/submit/drop-box/submit/)). 
-More detailed submission programatic instructions are here 
-[http://ena-docs.readthedocs.io/en/latest/prog_01.html#](http://ena-docs.readthedocs.io/en/latest/prog_01.html#) 
-    * Choose your experiment.xml, run.xml, study.xml and submission.xml files 
-    from the zip folder created by the conversion tool.
-    * Input your username and password, username will be something like "Webin-45144".
-    * Fix any errors that the test service reports, please contact 
-    [faang-dcc@ebi.ac.uk](mailto:faang-dcc@ebi.ac.uk) if you have any issues 
-    that you cannot resolve.
-    * Keep resubmitting until no more errors reported, should see **/RECEIPT/@success="true"**.
-4. Once you have passed the test service continue to submission with ENA 
-production service ([https://www.ebi.ac.uk/ena/submit/drop-box/submit/](https://www.ebi.ac.uk/ena/submit/drop-box/submit/))
-    * Choose your experiment.xml, run.xml, study.xml and submission.xml files from the zip folder created by the conversion tool.
-    * Input your username and password, username will be something like "Webin-45144".
-    * Fix any errors that the test service reports, please contact 
-    [faang-dcc@ebi.ac.uk](faang-dcc@ebi.ac.uk) if you have any issues that you 
-    cannot resolve.
-    * Keep resubmitting until no more errors reported, should see **/RECEIPT/@success="true"**.
-5. Receive and store XML receipt
-    * Once a submission has been processed a receipt XML is returned that 
-    conforms to the [SRA.receipt.xsd](ftp://ftp.sra.ebi.ac.uk/meta/xsd/latest/SRA.receipt.xsd) schema. 
-    If the submission was successful then the returned XML contains **/RECEIPT/@success="true"**.
-    * If there were any errors then the XML contains **/RECEIPT/@success="false"**.
-    * For more information please see [http://ena-docs.readthedocs.io/en/latest/prog_01.html#receipt-xml](http://ena-docs.readthedocs.io/en/latest/prog_01.html#receipt-xml)
+
+3. After successful validation you should be allowed to do a submission to ENA.
+Just click on **"Start submission to ENA"** button on 4th stage.
+![Screenshot](../img/ena_prepare_data_for_submission.png)
+
+4. Next you will need to provide your credentials. Please follow instructions 
+above. We would recommend to start from **"Test server"** submission
+![Screenshot](../img/ena_login.png)
+
+5. After submission you will get results on data portal, also browser will 
+start automatic download of **submission_results.xml** file. If it won't happen 
+please use **"Download submission results""** button. It's really important to 
+save this xml file in a safe place for further reference. Once you have 
+passed the test service continue to submission with ENA production service
+![Screenshot](../img/ena_submission_results.png)
+
 6. Check for validation fails post submission (files are not checked until 
 after submission), so it may be some time before you are emailed regarding 
 any errors or success.

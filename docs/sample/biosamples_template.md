@@ -96,7 +96,7 @@ BBSRC | Polaris House, North Star Avenue, Swindon, Wiltshire, SN2 1UH, United Ki
 Sample Name should contain a short species code, an abbreviated name for the 
 institute/lab, and a unique ID for each sample, e.g. 'ECA_ROSLIN_H1'
 
-Accepted [short species codes](short_species_codes.md) (please contact 
+Accepted [short species codes](../short_species_codes.md) (please contact 
 [FAANG DCC](mailto:faang-dcc@ebi.ac.uk) if you are submitting a species not 
 listed there)
 

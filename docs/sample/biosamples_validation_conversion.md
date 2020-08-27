@@ -51,4 +51,4 @@ there are no errors left and you are comfortable with everything that has
 triggered a warning. If there are some things that you cannot resolve, 
 contact [FAANG DCC](mailto:faang-dcc@ebi.ac.uk) for help. Eventually, you will 
 have a set of metadata that passes the validation checks and is ready for 
-submission.
+[submission](biosamples_submission.md).

@@ -1,12 +1,17 @@
 # Submission to BioSamples
-1. After successful validation you should be allowed to do a submission to 
-[BioSamples](https://www.ebi.ac.uk/biosamples/). Just click on 
+1. After successful [validation](biosamples_validation_conversion.md) you 
+should be allowed to do a submission 
+to [BioSamples](https://www.ebi.ac.uk/biosamples/) using our 
+[on-line tool](https://data.faang.org/validation/samples). Just click on 
 **"Start submission to BioSamples"** button on 4th stage.  
 ![Screenshot](../img/prepare_data_for_submission.png)
 
 2. Next you will need to provide your AAP credentials. Please follow 
 instructions provided in form, we would recommend to start from 
-**"Test server"** submission.
+**"Test server"** submission. Pleas keep in mind that you need to create two 
+seprate AAP accounts for [test](https://explore.aai.ebi.ac.uk/registerUser) and
+[production](https://aai.ebi.ac.uk/registerUser) servers. Credentials from one 
+account won't work on another.
 ![Screenshot](../img/login.png)
 
 3. Next you will need to choose from existing domains or a create new one, please

@@ -241,13 +241,17 @@ an instrument model.
 ###### Assay specific tabs
 For completion of the FAANG standard rules please refer to the 
 [latest experiment ruleset specification](https://data.faang.org/ruleset/experiments#standard). 
-For each row you need to use the same **'Sample Descriptor'** from the **'experiment ena'** tab.
+For each row you need to use the same **'Sample Descriptor'** and 
+**'Experiment alias'** from the **'experiment ena'** tab.
 
 **Sample Descriptor:** This is the BioSampleID that you have already submitted 
 to BioSamples referring to the specimen, cell culture or cell line from which 
 the assay was taken. Your BioSample accessions start with SAMEA followed by a 
 unique number e.g. SAMEA103886149. The value used here must be able to be 
 matched to one of the values used in the Experiment_ENA tab.
+
+**Experiment alias:** a unique alias for each experiment e.g. 
+"SUS_RI_DUR21-06_2023N006".
 
 Complete the remaining fields according to the [experiment ruleset specification](https://data.faang.org/ruleset/experiments#standard).
 

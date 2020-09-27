@@ -8,7 +8,7 @@ help.
 
 ## Prerequisites
 Please familiarise yourself with the [latest sample ruleset specification](
-https://data.faang.org/ruleset/samples#standard) and 
+https://data.faang.org/ruleset/samples) and 
 the [FAANG data sharing principles](http://www.faang.org/data-share-principle).
 
 **IMPORTANT: The data validation service is not compatible with templates 

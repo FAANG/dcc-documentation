@@ -30,6 +30,7 @@ USDA	| The United States Department of Agriculture (USA)
 USMARC	| United States Meat Animal Research Center (USA)
 USU	| Utah State University (USA)
 WSU | Washington State University(USA) 
+WU | Wageningen University (Netherlands)
 
 To suggest or discuss the addition of a new organisation abbreviation please 
 contact [faang-dcc@ebi.ac.uk](mailto:faang-dcc@ebi.ac.uk)

@@ -28,7 +28,7 @@ http://www.ebi.ac.uk/ena).
 
 **IMPORTANT: FAANG is not supported by the [ENA webin based submission process](https://www.ebi.ac.uk/ena/submit/sra/#home). 
 FAANG experiment data must be submitted to ENA using the process described on 
-this page that involves submission to [ENA dropbox submission](https://www.ebi.ac.uk/ena/submit/drop-box/submit/)**
+this page that involves a brokered submission via the [FAANG data portal](https://data.faang.org/validation/experiments)**
 
 **You must be able to find your records by searching the BioSamples accession 
 in the search box at the top right corner of BioSamples web pages before 

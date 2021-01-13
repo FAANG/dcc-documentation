@@ -189,8 +189,10 @@ and hosting goes away.
 
 FAANG is happy to host protocols in the [data portal](https://data.faang.org)
 
-If you wish FAANG to host your protocols, please send PDF copies of your 
-protocols to [FAANG DCC](mailto:faang-dcc@ebi.ac.uk). Please consult the FAANG 
+If you wish FAANG to host your protocols, please upload PDF copies of your 
+protocols using 
+[FAANG protocols upload tool](https://data.faang.org/upload_protocol). 
+Please consult the FAANG 
 metadata validation privacy notice for the processing of your personal 
 information in relation to protocol submission 
 [https://www.ebi.ac.uk/data-protection/privacy-notice/faang-metadata-validation](

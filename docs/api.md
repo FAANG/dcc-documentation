@@ -80,6 +80,36 @@ curl POST "http://data.faang.org/api/organism/_search/" -d '{
 }'
 ```
 
+List all Equus caballus female species with organism part equals to liver left 
+lateral lobe and FAANG standard met
+```bash
+curl POST "http://data.faang.org/api/specimen/_search/?_source=_id" -d '{
+  "query": {
+            "bool" : {
+              "filter" : [
+                  {"term" : {"standardMet" : "FAANG"}},
+                  {"term": {"organism.sex.text": "female"}},
+                  {"term": {"organism.organism.text": "Equus caballus"}},
+                  {"term": {"material.text": "specimen from organism"}},
+                  {"term": {"cellType.text": "liver left lateral lobe"}}
+              ]
+          }
+  }
+}'
+```
+From this request we found two species that meet the requirements - 
+SAMEA104728881 and SAMEA104728726. Now we can list all raw data files 
+associated with these records
+```bash
+curl "http://data.faang.org/api/file/_search/?q=specimen:SAMEA104728881&size=10000"
+curl "http://data.faang.org/api/file/_search/?q=specimen:SAMEA104728726&size=10000"
+```
+And all analyses objects associated with these records
+```bash
+curl "http://data.faang.org/api/analysis/_search/?q=sampleAccessions:SAMEA104728881&size=10000"
+curl "http://data.faang.org/api/analysis/_search/?q=sampleAccessions:SAMEA104728726&size=10000"
+```
+
 To use the advanced options, you need to know the data structure which is 
 accessible [here](https://github.com/FAANG/faang-portal-backend/tree/master/elasticsearch). 
 A useful hint for query construction, is that you can replicate the 

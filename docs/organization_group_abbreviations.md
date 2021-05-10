@@ -5,6 +5,7 @@ contact [faang-dcc@ebi.ac.uk](mailto:faang-dcc@ebi.ac.uk)
 
 Abbreviation | Organization/Group
 ------------ | -------------
+ABDN | University of Aberdeen (Aberdeen, UK)
 AGR | AgResearch (New Zealand)
 AGS	| Agroscope (Switzerland)
 DEDJTR	| Department of Economic Development, Jobs, Transport and Resources (Bundoora, Australia)

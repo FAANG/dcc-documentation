@@ -15,6 +15,8 @@ ESTEAM	| ESTeam Paris SUD (France)
 FBN	| Leibniz Institute for Farm Animal Biology (Dummerstorf, Germany)
 INRA | French National Institute for Agricultural Research (France)
 INRAE | National Research Institute for Agriculture, Food and Environment (France）
+INSERM | French National Institute of Health and Medical Research (France)
+INSERM-INRAE | INSERM-INRAE
 ISU	| Iowa State University (USA)
 KU	| Konkuk University (Seoul, Korea)
 NUID	| University College Dublin (Dublin, Ireland)

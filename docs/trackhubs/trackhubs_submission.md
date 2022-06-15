@@ -1,6 +1,6 @@
 ## Uploading Track Files
 
-1. Login to MinIO browser http://45.88.81.38/. Please contact [faang-dcc@ebi.ac.uk](mailto:faang-dcc@ebi.ac.uk) for the MinIO login credentials.
+1. Login to MinIO browser [http://45.88.81.38/](http://45.88.81.38/). Please contact [faang-dcc@ebi.ac.uk](mailto:faang-dcc@ebi.ac.uk) for the MinIO login credentials.
 2. Create a bucket with the desired track hub name.
 3. Upload all your track files to the bucket. The track files must be formatted in one of the compressed binary index formats supported by Genome Browsers: bigWig, bigBed, bigGenePred, bigChain, bigNarrowPeak, bigBarChart, bigInteract, bigPsl, bigMaf, hic, BAM, CRAM, HAL or VCF.
 

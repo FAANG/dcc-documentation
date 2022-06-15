@@ -13,7 +13,9 @@ nav:
         - Updating existing submission in ENA: experiment/ena_updating.md
     - Array data submission: array.md
     - Analysis data submission:
-          - Completeing the template: analysis/analysis_index.md
-          - Validation and conversion: analysis/analysis_validation_conversion.md
+        - Completing the template: analysis/analysis_index.md
+        - Validation and conversion: analysis/analysis_validation_conversion.md
+    - Track Hubs submission:
+        - Submitting Track Hubs: trackhubs/trackhubs_submission.md
     - Frequently Asked Questions: faq.md
 theme: readthedocs

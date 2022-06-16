@@ -2,20 +2,20 @@
 
 1. Login to MinIO browser [http://45.88.81.38/](http://45.88.81.38/). Please contact [faang-dcc@ebi.ac.uk](mailto:faang-dcc@ebi.ac.uk) for the MinIO login credentials.
 <p style="text-align: center; margin: 15px 0;">
-  <img src="../img/minio_login.png" width="40%" />
+  <img src="../../img/minio_login.png" width="65%" />
 </p>
 
 2. Create a bucket with the desired track hub name.
 3. Upload all your track files to the bucket. The track files must be formatted in one of the compressed binary index formats supported by Genome Browsers: bigWig, bigBed, bigGenePred, bigChain, bigNarrowPeak, bigBarChart, bigInteract, bigPsl, bigMaf, hic, BAM, CRAM, HAL or VCF.
 <p style="text-align: center; margin: 15px 0;">
-  <img src="../img/minio_upload.png" width="85%" />
+  <img src="../../img/minio_upload.png" width="100%" />
 </p>
 
 ## Filling the template
 
 Download the [empty excel template](https://data.faang.org/assets/empty/trackhubs.xlsx). Please do not add/remove sheets or columns. You can also download the [example template](https://data.faang.org/assets/with_examples/trackhubs.xlsx) for reference and fill out the following:
 <p style="text-align: center; margin: 15px 0;">
-  <img src="../img/download_trackhubs_template.png" width="60%" />
+  <img src="../../img/download_trackhubs_template.png" width="75%" />
 </p>
 
 ### Hub data sheet 
@@ -54,22 +54,22 @@ Fill out one row for each track file that you have uploaded to MinIO storage. Th
 
 Upload the filled out template using the file uploader on the Track Hubs submission page. 
 <p style="text-align: center; margin: 15px 0;">
-  <img src="../img/upload_trackhub.png" width="60%" />
+  <img src="../../img/upload_trackhub.png" width="75%" />
 </p>
 
 ### Validation 
 
 1. The template is converted and validated. You can see the status of the submission beside the file uploader. 
 <p style="text-align: center; margin: 15px 0;">
-  <img src="../img/trackhub_validation.png" width="80%" />
+  <img src="../../img/trackhub_validation.png" width="100%" />
 </p>
 2. Any validation errors are reported in the “Validation Results” section. Error messages at the top of the section indicate which sheets have errors. Navigate between different tabs, corresponding to each sheet in the excel file, to view the table with cells having errors highlighted in red. Click on a cell to get a description of the error. 
 <p style="text-align: center; margin: 15px 0;">
-  <img src="../img/trackhub_errors.png" width="70%" />
+  <img src="../../img/trackhub_errors.png" width="85%" />
 </p>
 3. Once the template has passed initial validation, hub files are generated and the “HubCheck Results” subsection displays any errors/ warnings reported by the UCSC hubCheck program.
 <p style="text-align: center; margin: 15px 0;">
-  <img src="../img/hubcheck_results.png" width="80%" />
+  <img src="../../img/hubcheck_results.png" width="100%" />
 </p>
 4. All errors need to be fixed, but warnings maybe ignored after reviewing.
 
@@ -78,5 +78,5 @@ Upload the filled out template using the file uploader on the Track Hubs submiss
 1. After all errors are fixed, the submission button is enabled. Click on the submit button to register your track hub with the Track Hub Registry. 
 2. If registration is successful, your track hub will be searchable in the genome browsers. The track hub is then also associated with related FAANG specimen records based on the information provided in the template.
 <p style="text-align: center; margin: 15px 0;">
-  <img src="../img/trackhub_submission.png" width="80%" />
+  <img src="../../img/trackhub_submission.png" width="100%" />
 </p>

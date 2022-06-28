@@ -61,9 +61,9 @@ Fill out one row for each track file that you have uploaded to MinIO storage. Th
 
 **Track Name** | **File Path** | **File Type** | **Short Label** | **Long Label** | **Related Specimen ID** | **Subdirectory**
 ------------ | ------------- | ------------ | ------------ | ------------ | ------------ | ------------
-Track1 | test-hub/test1.Bigbed | bigBed | t1 | test track 1 | SAMEA104728909 | sub_dir1
-Track2_1 | test-hub/test2_1.Bigbed | bigBed | t2.1 | test track 2.1 | SAMEA104728910 | sub_dir2
-Track2_2 | test-hub/test2_2.Bigbed | bigBed | t2.2 | test track 2.2 | SAMEA104728910 | sub_dir2
+Track1 | test-hub/test1.Bigbed | bigBed | t1 | test track 1 | SAMEA104728908, SAMEA104728909 | sub_dir1
+Track2_1 | test-hub/test2_1.Bigbed | bigBed | t2.1 | test track 2.1 | SAMEA104728909, SAMEA104728910 | sub_dir2
+Track2_2 | test-hub/test2_2.Bigbed | bigBed | t2.2 | test track 2.2 | SAMEA104728907 | sub_dir2
 
 ## Submitting Track Hub
 

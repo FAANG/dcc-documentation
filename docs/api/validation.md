@@ -1,5 +1,3 @@
-## Validation
-
 ### Prerequisite
 
 Before using the validation service, you will need to fill out an excel template with details of your records. For more information about filling the template, please refer to the **Completing the template** page in the respective documentation sections depending on the record type.
@@ -44,11 +42,8 @@ The validation results may contain errors and warnings.  Before proceeding to su
 If you choose a annotated file type response, you can see the errors and warnings highlighted on the excel file as shown below -
 
 <p style="text-align: center; margin: 15px 0;">
-  <img src="../../img/val_err_annot.png" width="75%" />
-</p>
-
-<p style="text-align: center; margin: 15px 0;">
-  <img src="../../img/val_warn_annot.png" width="75%" />
+  <img src="../../img/val_err_annot.png" width="45%" />
+  <img src="../../img/val_warn_annot.png" width="45%" />
 </p>
 
 The errors and warnings in JSON format response looks like this -
@@ -57,7 +52,7 @@ The errors and warnings in JSON format response looks like this -
   <img src="../../img/val_err_json.png" width="75%" />
 </p>
 
-<p style="text-align: center; margin: 15px 0;">
+<p style="text-align: center; margin: 25px 0;">
   <img src="../../img/val_warn_json.png" width="75%" />
 </p>
 

@@ -6,23 +6,16 @@ To create a new domain for Biosamples submission, use the endpoint **https://api
 
 The request is of content-type application/json and the format of the request body should look like this -
 
-``
+```
 {
-`` <br> ``
     "username": "test_user",
-`` <br> ``
     "password": "******",
-`` <br> ``
     "mode": "test",
-`` <br> ``
     "private_submission": false,
-`` <br> ``
     "domain_name": "test-domain",
-`` <br> ``
     "domain_description": "test domain"
-`` <br> ``
 }
-``
+```
 
 Here, the **username** and **password** are your AAP credentials. 
 
@@ -35,11 +28,9 @@ account won't work on another.
 
 The cURL command for the above request would look like this -
 
-``
+```
 curl -X POST 'https://api.faang.org/validation_submission_api/domain_actions/submit_domain' \
-`` <br> ``
 -H 'Content-Type: application/json' \
-`` <br> ``
 --data '{
     "username": "test",
     "password": "*****",
@@ -48,7 +39,7 @@ curl -X POST 'https://api.faang.org/validation_submission_api/domain_actions/sub
     "domain_name": "test-domain",
     "domain_description": "test domain"
 }'
-``
+```
 
 If a new domain is successfully created, you will get a response with status code 200. A status code of 400 or 500 indicates that the domain creation failed, with reason for failure specified in the response.
 
@@ -58,34 +49,27 @@ To view a list of existing domains, use the endpoint **https://api.faang.org/val
 
 The request is of content-type application/json. The request body format is as shown below, and the fields are same as specified for the <em>submit_domain</em> endpoint. 
 
-``
+```
 {
-`` <br> ``
     "username": "test_user",
-`` <br> ``
     "password": "******",
-`` <br> ``
     "mode": "test",
-`` <br> ``
     "private_submission": false,
-`` <br> ``
 }
-``
+```
 
 The cURL command for the above request would look like this -
 
-``
+```
 curl -X POST 'https://api.faang.org/validation_submission_api/domain_actions/list_domains' \
-`` <br> ``
 -H 'Content-Type: application/json' \
-`` <br> ``
 --data '{
     "username": "test",
     "password": "*****",
     "mode": "test",
     "private_submission": false
 }'
-``
+```
 
 
 

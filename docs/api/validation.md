@@ -27,13 +27,11 @@ The body has a file_id as the key and the location to your template file as the 
 
 For example, the cURL command for validating samples and saving the annotated template will look like this -
 
-``
+```
 curl -X POST 'https://api.faang.org/validation_submission_api/validation/samples?annotate_template=true'
-`` <br> ``
 --form 'FILE_ID=@"PATH_TO_TEMPLATE_FILE"'
-`` <br> ``
 --output OUTPUT_FILE_PATH
-``
+```
 
 **FILE_ID** is a unique ID for your template file. You will need this ID for the submission step.
 

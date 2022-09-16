@@ -8,7 +8,7 @@ To validate your filled out template against the FAANG ruleset programmatically,
 
 ### Path parameter
 
-**TYPE** is a path parameter which is mandatory and should be replaced with the appropriate record type, i.e. <em>samples</em>, <em>experiments</em> or <em>analyses</em>
+**TYPE** should be replaced with the appropriate record type, i.e. <em>samples</em>, <em>experiments</em> or <em>analyses</em>.
 
 For example, use **https://api.faang.org/validation_submission_api/validation/samples** for validating samples.
 
@@ -25,7 +25,7 @@ For example, **https://api.faang.org/validation_submission_api/validation/sample
 The Content-type is <em>multipart/form-data</em>.
 The body has a file_id as the key and the location to your template file as the value.
 
-For example, the cURL command for validating samples and saving the annotated template will look like this -
+For example, the cURL command for validating samples and saving the annotated template is as follows.
 
 ```
 curl -X POST 'https://api.faang.org/validation_submission_api/validation/samples?annotate_template=true'
@@ -43,14 +43,14 @@ curl -X POST 'https://api.faang.org/validation_submission_api/validation/samples
 
 The validation results may contain errors and warnings.  Before proceeding to submission step, errors need to be fixed, but addressing the warnings is not mandatory for submission. 
 
-If you choose an annotated file type response, you can see the errors and warnings highlighted on the excel file as shown below -
+If you choose an annotated file type response, you can see the errors and warnings highlighted on the excel file as shown below.
 
 <p style="text-align: center; margin: 15px 0;">
   <img src="../../img/val_err_annot.png" width="45%" />
   <img src="../../img/val_warn_annot.png" width="45%" />
 </p>
 
-The errors and warnings in JSON format response looks like this -
+The errors and warnings in JSON format response are displayed as shown below.
 
 <p style="text-align: center; margin: 15px 0;">
   <img src="../../img/val_err_json.png" width="75%" />
@@ -60,5 +60,5 @@ The errors and warnings in JSON format response looks like this -
   <img src="../../img/val_warn_json.png" width="75%" />
 </p>
 
-For more information on errors and warning, refer to the documentation for **Validation** in the respective sections depending on the record type.
+For more information on the errors and warnings, refer to the documentation for **Validation** in the respective sections depending on the record type.
 

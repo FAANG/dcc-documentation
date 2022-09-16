@@ -4,7 +4,7 @@ The Domain actions API can be used to submit new domains or view a list of exist
 
 To create a new domain for Biosamples submission, use the endpoint **https://api.faang.org/validation_submission_api/domain_actions/submit_domain** with HTTP POST method.
 
-The request is of content-type application/json and the format of the request body should look like this -
+The request is of content-type <em>application/json</em> and the format of the request body is as shown below.
 
 ```
 {
@@ -26,7 +26,7 @@ account won't work on another.
 
 **private_submission** can be set to <em>true</em> or <em>false</em> to indicate whether the domain is used for a private submission. Specify the name and description for your new domain in the **domain_name** and **domain_description** fields, respectively.
 
-The cURL command for the above request would look like this -
+The cURL command for the above request is as follows.
 
 ```
 curl -X POST 'https://api.faang.org/validation_submission_api/domain_actions/submit_domain' \
@@ -41,13 +41,13 @@ curl -X POST 'https://api.faang.org/validation_submission_api/domain_actions/sub
 }'
 ```
 
-If a new domain is successfully created, you will get a response with status code 200. A status code of 400 or 500 indicates that the domain creation failed, with reason for failure specified in the response.
+If a new domain is successfully created, you will get a response with status code 200. A status code of 400 or 500 indicates that the domain creation failed, with reason for failure specified in the response body.
 
 ## List existing domains
 
 To view a list of existing domains, use the endpoint **https://api.faang.org/validation_submission_api/domain_actions/list_domains** with HTTP POST method.
 
-The request is of content-type application/json. The request body format is as shown below, and the fields are same as specified for the <em>submit_domain</em> endpoint. 
+The request is of content-type <em>application/json</em>. The request body format is as shown below, and the fields are same as specified for the <em>submit_domain</em> endpoint. 
 
 ```
 {
@@ -58,7 +58,7 @@ The request is of content-type application/json. The request body format is as s
 }
 ```
 
-The cURL command for the above request would look like this -
+The cURL command for the above request is as follows.
 
 ```
 curl -X POST 'https://api.faang.org/validation_submission_api/domain_actions/list_domains' \

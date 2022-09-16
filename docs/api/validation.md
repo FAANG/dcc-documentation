@@ -1,6 +1,6 @@
 ### Prerequisite
 
-Before using the validation service, you will need to fill out an excel template with details of your records. For more information about filling the template, please refer to the **Completing the template** page in the respective documentation sections depending on the record type.
+Before using the validation service, you will need to fill out an excel template with details of your records. For more information about filling the template, please refer to the **Completing the template** page in the respective sections of the documentation depending on the record type.
 
 ### Validation endpoint
 
@@ -27,7 +27,13 @@ The body has a file_id as the key and the location to your template file as the 
 
 For example, the cURL command for validating samples and saving the annotated template will look like this -
 
-``curl --location --request POST 'https://api.faang.org/validation_submission_api/validation/samples?annotate_template=true' --form 'FILE_ID=@"PATH_TO_TEMPLATE_FILE"' --output OUTPUT_FILE_PATH``
+``
+curl -X POST 'https://api.faang.org/validation_submission_api/validation/samples?annotate_template=true'
+`` <br> ``
+--form 'FILE_ID=@"PATH_TO_TEMPLATE_FILE"'
+`` <br> ``
+--output OUTPUT_FILE_PATH
+``
 
 **FILE_ID** is a unique ID for your template file. You will need this ID for the submission step.
 
@@ -39,7 +45,7 @@ For example, the cURL command for validating samples and saving the annotated te
 
 The validation results may contain errors and warnings.  Before proceeding to submission step, errors need to be fixed, but addressing the warnings is not mandatory for submission. 
 
-If you choose a annotated file type response, you can see the errors and warnings highlighted on the excel file as shown below -
+If you choose an annotated file type response, you can see the errors and warnings highlighted on the excel file as shown below -
 
 <p style="text-align: center; margin: 15px 0;">
   <img src="../../img/val_err_annot.png" width="45%" />
@@ -56,5 +62,5 @@ The errors and warnings in JSON format response looks like this -
   <img src="../../img/val_warn_json.png" width="75%" />
 </p>
 
-For more information on errors and warning, refer to the  **Validation** page in the respective documentation sections depending on the record type.
+For more information on errors and warning, refer to the documentation for **Validation** in the respective sections depending on the record type.
 

@@ -17,5 +17,9 @@ nav:
         - Validation and conversion: analysis/analysis_validation_conversion.md
     - Track Hubs submission:
         - Submitting Track Hubs: trackhubs/trackhubs_submission.md
+    - Validation-Submission API:
+        - Validation endpoint: api/validation.md
+        - Domain actions endpoints: api/domain_actions.md
+        - Submission endpoint: api/submission.md
     - Frequently Asked Questions: faq.md
 theme: readthedocs

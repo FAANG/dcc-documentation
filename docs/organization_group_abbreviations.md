@@ -41,7 +41,7 @@ USMARC	| United States Meat Animal Research Center (USA)
 USU	| Utah State University (USA)
 WSU | Washington State University(USA) 
 WU | Wageningen University (Netherlands)
-ZIGR | POLISH ACADEMY OF SCIENCES Department of Ichthyobiology and Fisheries Management in Gołysz (Poland)
+ZIGR | Polish Academy of Sciences Institute of Ichthyobiology and Aquaculture in Golysz (Poland)
 
 To suggest or discuss the addition of a new organisation abbreviation please 
 contact [faang-dcc@ebi.ac.uk](mailto:faang-dcc@ebi.ac.uk)

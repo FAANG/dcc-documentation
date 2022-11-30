@@ -13,6 +13,7 @@ DIAGENODE | Diagenode (Liège, Belgium)
 EHU	| University of the Basque Country (Spain)
 ESTEAM	| ESTeam Paris SUD (France)
 FBN	| Leibniz Institute for Farm Animal Biology (Dummerstorf, Germany)
+HCMR | Hellenic Centre for Marine Research (Greece)
 INRA | French National Institute for Agricultural Research (France)
 INRAE | National Research Institute for Agriculture, Food and Environment (France）
 INSERM | French National Institute of Health and Medical Research (France)

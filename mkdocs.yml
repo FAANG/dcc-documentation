@@ -26,6 +26,7 @@ nav:
         - Verifying Ontologies: ontology/verify.md
         - Flagging Ontologies: ontology/flag.md
         - Editing Ontologies: ontology/edit.md
+        - Ontology Improvement Tool: ontology/improver.md
         - Summary Statistics: ontology/summary.md
     - Frequently Asked Questions: faq.md
 theme: readthedocs

@@ -21,5 +21,11 @@ nav:
         - Validation endpoint: api/validation.md
         - Domain actions endpoints: api/domain_actions.md
         - Submission endpoint: api/submission.md
+    - Ontology Improver:
+        - Ontology Table: ontology/table.md
+        - Verifying Ontologies: ontology/verify.md
+        - Flagging Ontologies: ontology/flag.md
+        - Editing Ontologies: ontology/edit.md
+        - Summary Statistics: ontology/summary.md
     - Frequently Asked Questions: faq.md
 theme: readthedocs

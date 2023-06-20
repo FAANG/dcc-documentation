@@ -18,7 +18,7 @@ INRA | French National Institute for Agricultural Research (France)
 INRAE | National Research Institute for Agriculture, Food and Environment (France）
 INSERM | French National Institute of Health and Medical Research (France)
 INSERM-INRAE | INSERM-INRAE
-Institut_Agro | L’institut Agro (Rennes, France)
+Institut Agro | L’institut Agro (Rennes, France)
 IRTA | Institute of Agrifood Research and Technology (Spain)
 ISU	| Iowa State University (USA)
 KU	| Konkuk University (Seoul, Korea)

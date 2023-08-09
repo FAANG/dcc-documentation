@@ -1,11 +1,11 @@
-## Improvement Tool
+## Check/Add missing terms
 
-The 2nd tab navigates to the improvement tool that allows you to add new ontologies.
+The 2nd tab navigates to the tool that allows you to check for and add missing ontologies.
 
 Enter ontology terms in the text box as shown below. If you want to search for multiple ontologies, enter one term in each line and click on the **Search** button.
 
 <p style="text-align: center; margin: 15px 0;">
-  <img src="../../img/ont_improver_search.png" width="100%" />
+  <img src="../../img/check_add_missing_terms.png" width="100%" />
 </p>
 
 Ontologies that already exist will be listed in the **Existing terms** section as shown below. You can edit/validate ontologies from this table in the same way as described previously.

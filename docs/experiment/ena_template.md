@@ -9,7 +9,7 @@ If you have any questions about this process please contact
 
 ## Prerequisites
 1. You must have already [submitted your sample information](
-biosamples_template.md) and obtained your 
+../sample/biosamples_template.md) and obtained your 
 BioSample accessions ahead of submitting sequencing data.  You must then use 
 these FAANG BioSample accessions in your sequencing data submissions to the 
 read archives. Your BioSample accessions start with SAMEA followed by a 

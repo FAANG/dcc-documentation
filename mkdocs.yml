@@ -28,5 +28,6 @@ nav:
         - Editing Ontologies: ontology/edit.md
         - Check/Add missing terms: ontology/missing_terms.md
         - Summary Statistics: ontology/summary.md
+    - GraphQL: graphql/readme.md
     - Frequently Asked Questions: faq.md
 theme: readthedocs

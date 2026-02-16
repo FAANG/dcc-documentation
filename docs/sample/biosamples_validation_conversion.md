@@ -8,15 +8,12 @@ If you have any questions or concerns regarding your validation results, please 
 To start validation, please follow these steps:
 
 1. Click on **'Sample''** tab
+   ![Screenshot](../img/new_system/sample/validation_service.png)
 
-![Screenshot](../img/new_system/sample/validation_service.png)
+2. Click on **'Choose file'** button to choose filled out template file
 
-2. Click on **'Choose file''** button to choose filled out template file
-
-3. Select the option of either making a new submission or updating existing ones.
-Upon file selection, the 'Validate' or 'Reset' button is displayed. Click on the 'Validate' button to upload the file and run the validation service.
-
-![Screenshot](../img/new_system/sample/validation_successful.png)
+3. Select the option of either making a new submission or updating existing ones. Upon file selection, the 'Validate' or 'Reset' button is displayed. Click on the 'Validate' button to upload the file and run the validation service.
+   ![Screenshot](../img/new_system/sample/validation_successful.png)
 
 4. Check **'Status'** badge for updates regarding conversion and validation. It might have three different values:
     * Waiting
@@ -28,10 +25,9 @@ that contains any issues, pop-up window will have detailed information about
 **'Errors'** and **'Warnings'**. It's also possible to download table annotated
 with **'Errors'** and **'Warnings'** messages using **"Get annotated template"** 
 button.
+   ![Screenshot](../img/new_system/sample/annotated_template.png)
+   ![Screenshot](../img/new_system/sample/error_and_warning.png)
 
-![Screenshot](../img/new_system/sample/annotated_template.png)
-
-![Screenshot](../img/new_system/sample/error_and_warning.png)
 
 
 **'Errors'** are problems that have to be dealt with. You will not be able to 

@@ -4,7 +4,7 @@ To update existing BioSamples records, you'll need to use a modified template an
 
 ## Update Process
 
-![Screenshot](../img/new_system/update_sample.png)
+![Screenshot](../img/new_system/sample/update_sample.png)
 
 1. Select the **"Update existing samples"** option in the validation tool
 
@@ -18,7 +18,7 @@ To update existing BioSamples records, you'll need to use a modified template an
 
 **Template Changes**: In update spreadsheets, the 'Sample Name' column is replaced with 'BioSample ID'. Refer to the provided example template for updates.
 
-![Screenshot](../img/new_system/update_excel_template.png)
+![Screenshot](../img/new_system/sample/update_excel_template.png)
 
 **Data Requirements**: This action will update the sample details with the metadata you provide, so ensure all information is accurate before submission.
 

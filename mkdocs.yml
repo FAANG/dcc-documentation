@@ -15,7 +15,9 @@ nav:
     - Array data submission: array.md
     - Analysis data submission:
         - Completing the template: analysis/analysis_index.md
-        - Validation and conversion: analysis/analysis_validation_conversion.md
+        - Validation: analysis/analysis_validation_conversion.md
+        - Submission to ENA: analysis/ena_submission.md
+        - Updating via FAANG: analysis/ena_updating_via_faang.md
     - Track Hubs submission:
         - Submitting Track Hubs: trackhubs/trackhubs_submission.md
     - Validation-Submission API:

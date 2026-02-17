@@ -3,9 +3,8 @@
 The [FAANG validation tool](https://data.faang.org/validation/experiments) 
 will validate required assay specific tabs for any of the assay types contained within the 
 [FAANG experiment metadata rules](https://data.faang.org/ruleset/experiments#standard). 
-You can upload your completed Experiment 
-template, as was possible for your sample metadata template.  This will alert 
-you to any errors that need resolving before submission. 
+You can upload your completed Experiment template in the same way as your Sample metadata template. 
+This will allow the system to identify and report any errors that must be resolved before submission.
 Please contact [FAANG DCC](mailto:faang-dcc@ebi.ac.uk) for 
 guidance if required.
 

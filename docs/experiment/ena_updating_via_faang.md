@@ -16,7 +16,7 @@ Ensure that the spreadsheet includes the original alias used during the initial 
 
 
 
-**Data Requirements**: This action will update the submission details with the metadata you provide, so ensure all information is accurate before submission.
+This action will update the submission details with the metadata you provide, so ensure all information is accurate before submission.
 
 ## Alternative Method
 

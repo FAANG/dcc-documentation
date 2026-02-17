@@ -10,6 +10,7 @@ nav:
         - Completing the template: experiment/ena_template.md
         - Validation: experiment/ena_validation_conversion.md
         - Submission to ENA: experiment/ena_submission.md
+        - Updating via FAANG: experiment/ena_updating_via_faang.md
         - Updating existing submission in ENA: experiment/ena_updating.md
     - Array data submission: array.md
     - Analysis data submission:

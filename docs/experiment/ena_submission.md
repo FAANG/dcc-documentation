@@ -28,20 +28,15 @@ achieve this.
     command similar to 'find /PATH/TO/BASESEQUENCINGDIRECTORY -name "*.fq" > 
     asperafilelist.txt’.
 
-3. After successful validation you should be allowed to do a submission to ENA.
-Just click on **"Start submission to ENA"** button on 4th stage.
-![Screenshot](../img/ena_prepare_data_for_submission.png)
+3. After successful validation you should be allowed to do a submission to ENA. You will need to provide your credentials.
+![Screenshot](../img/new_system/experiment/ena_login.png)
 
-4. Next you will need to provide your credentials. Please follow instructions 
-above. We would recommend to start from **"Test server"** submission
-![Screenshot](../img/ena_login.png)
 
-5. After submission you will get results on data portal, also browser will 
+4After submission you will get results on data portal, also browser will 
 start automatic download of **submission_results.xml** file. If it won't happen 
 please use **"Download submission results""** button. It's really important to 
-save this xml file in a safe place for further reference. Once you have 
-passed the test service continue to submission with ENA production service
-![Screenshot](../img/ena_submission_results.png)
+save this xml file in a safe place for further reference.
+![Screenshot](../img/new_system/experiment/ena_submission_results.png)
 
 6. Check for validation fails post submission (files are not checked until 
 after submission), so it may be some time before you are emailed regarding 
